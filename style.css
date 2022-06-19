@@ -1,193 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 *{
     box-sizing: border-box;
+}
+
+body {
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
     margin: 0;
-    padding: 0;
-}
-p, button{
-    font-family: 'open Sans' sans-serif;
-    font-size: 18px;
-}
-h1, h2, h6{
-    font-family: 'poppins',sans-serif;
-}
-.container{
-    background-image: url(./img/bg-hero-desktop.svg);
-    background-color: hsl(193, 100%, 96%);
-    width: 100%;
-}
-nav{display: flex;}
-nav img{
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 5rem;
-    font-family:'poppins',sans-serif ;
-}
-nav button{
+  }
+  
+  h1,
+  h2 {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  p {
+    opacity: 0.6;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .btn {
+    padding: 15px 60px;
+    border-radius: 50px;
     background-color: #fff;
-    border-radius: 25px;
-    padding: 0.5rem 3rem;
-    margin-top: 2rem;
-    border: thin solid gray;
-    outline: 0;
+    border: none;
+    font-size: 16px;
     cursor: pointer;
-    font-family:  'open Sans' sans-serif;
-    margin-left: 45rem;
-    align-items: center;
-    justify-content: center;
-
-}
-.menu{
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-}
-.menu a{
-    color:hsl(192, 100%, 9%) ;
-}
-.menu .menu .items{
-    padding: 5rem;
-}
-.menu .first h1{
-    margin-bottom: 1rem;
-    font-family:'poppins',sans-serif ;
-}
-.menu .first p{
-    margin-bottom: 1rem;
-    line-height: 1.5;
-    font-family:  'open Sans' sans-serif;
-}
-.menu .first button{
-    background-color:hsl(322, 100%, 66%) ;
-    color: #fff;
-    border-radius: 25px;
-    border: thin solid gray;
-    padding: 0.5rem 3rem;
-    font-size: 1rem;
-    font-family: 'open Sans' sans-serif;
-    outline: 0;
-    cursor: pointer;
-}
-.menu .first{
-    width: 50%;
-    font-size: 18px;
-    margin-left: 5rem;
-}
-.menu .second img{
-    max-width: 500px;
-    height: auto;
-    margin-left: 10rem;
-    margin-right: 5rem ;
-}
-#section{
-    padding: 7.5rem;
-    
-}
-#section .section1{
-    display: flex;
-    align-items: center;
-    border: thin solid #ccc;
-    border-radius: 1.4rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
-}
-
-#section .section1 .grow1-item{
-    padding:  3rem 3rem 3rem 3rem;
-}
-#section .section1 .grow-2 img{
-    width: 400px;
-}
-#section{
-    padding: 7.5rem;
-}
-#section .section2{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    border: thin solid #ccc;
-    border-radius: 1.4rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
-
-}
-#section .section2 .flow1-item{
-    padding:  3rem 3rem 3rem 3rem;
-}
-#section .section2 .flow-2 img{
-    width: 400px;
-}
-#section3{
-    padding: 7.5rem;
-}
-#section .section3{
-    display: flex;
-    align-items: center;
-    border: thin solid #ccc;
-    border-radius: 1.4rem;
-    margin-bottom: 0.5rem;
-    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
-}
-#section .section3 .users1-item{
-    padding:  3rem 3rem 3rem 3rem;
-}
-#section .section3 .users-2 img{
-    width: 400px;
-}
-#community .community{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 700px;
-    border: thin solid #ccc;
-    margin: 0 auto;
-    padding: 3rem;
-    border-radius: 0.5rem;
-    margin-top: 2.5rem;
-    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
-    z-index: 1;
-    
-}
-#community .community button{
-    background-color:hsl(322, 100%, 66%) ;
-    color: #fff;
-    border-radius: 25px;
-    border: thin solid gray;
-    padding: 0.5rem 3rem;
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    font-family: 'open Sans' sans-serif;
-    outline: 0;
-    cursor: pointer;
-}
-#contact{
-    padding: 2rem 7.5rem;
-    background-color: hsl(192, 100%, 9%);
-}
-.footer-sec{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.col1{color: white;}
-.col1 a{
-    text-decoration: none;
-    color: #fff;
-    
-}
-.col2 a{
-    text-decoration: none;
-    color: #fff;
-    
-}
-.col3 a{
-    text-decoration: none;
-    color: #fff;
-    
-}
-.col4 img{
+    font-weight: 700;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.15);
+  }
+  
+  .btn-first {
+    background-color: hsl(322, 100%, 66%);
     color: white;
-}
+  }
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content > div,
+  .content > ul {
+    flex: 1;
+  }
+  
+  .end {
+    align-items: flex-start;
+  }
+  
+  header {
+    background-image: url("./img/bg-hero-desktop.svg");
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 0;
+  }
+  
+  nav {
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  .header-img {
+    margin-left: 20%;
+    width: 80%;
+  }
+  
+  .box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.15);
+    margin: 40px 0;
+    padding: 60px;
+  }
+  
+  .small-box {
+    display: inline-block;
+    margin-bottom: -50%;
+    position: relative;
+    z-index: 1;
+  }
+  .box img {
+    width: 80%;
+  }
+  
+  footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 180px 0 60px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 20px;
+  }
+  
+  footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .circle {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  footer p {
+    text-align: right;
+  }
+  
+  @media screen and (max-width: 425px) {
+    body {
+      text-align: center;
+      font-size: 1.15em;
+    }
+    header {
+        background-image: url("./img/bg-hero-mobile.svg");
+    }
 
+    nav.content {
+      flex-direction: row;
+    }
+    .header-img {
+      margin-top: 45px;
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+    .btn {
+      padding: 10px 25px;
+      font-size: 10px;
+    }
+  
+    header .btn-first {
+      margin-top: 10px;
+      padding: 15px 90px;
+    }
+    .logo {
+      width: 120px;
+      height: 20px;
+    }
+    .box-reverse-mobile {
+      flex-direction: column-reverse;
+    }
+  
+    footer ul {
+      width: 100%;
+      padding: 0;
+    }
+    footer p {
+      text-align: center;
+    }
+  }
+  
