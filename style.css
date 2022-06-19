@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p, button{
+    font-family: 'open Sans' sans-serif;
+    font-size: 18px;
+}
+h1, h2, h6{
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    background-image: url(./img/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    width: 100%;
+}
+nav{display: flex;}
+nav img{
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    font-family:'poppins',sans-serif ;
+}
+nav button{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+    margin-top: 2rem;
+    border: thin solid gray;
+    outline: 0;
+    cursor: pointer;
+    font-family:  'open Sans' sans-serif;
+    margin-left: 45rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.menu a{
+    color:hsl(192, 100%, 9%) ;
+}
+.menu .menu .items{
+    padding: 5rem;
+}
+.menu .first h1{
+    margin-bottom: 1rem;
+    font-family:'poppins',sans-serif ;
+}
+.menu .first p{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-family:  'open Sans' sans-serif;
+}
+.menu .first button{
+    background-color:hsl(322, 100%, 66%) ;
+    color: #fff;
+    border-radius: 25px;
+    border: thin solid gray;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    font-family: 'open Sans' sans-serif;
+    outline: 0;
+    cursor: pointer;
+}
+.menu .first{
+    width: 50%;
+    font-size: 18px;
+    margin-left: 5rem;
+}
+.menu .second img{
+    max-width: 500px;
+    height: auto;
+    margin-left: 10rem;
+    margin-right: 5rem ;
+}
+#section{
+    padding: 7.5rem;
+    
+}
+#section .section1{
+    display: flex;
+    align-items: center;
+    border: thin solid #ccc;
+    border-radius: 1.4rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
+}
+
+#section .section1 .grow1-item{
+    padding:  3rem 3rem 3rem 3rem;
+}
+#section .section1 .grow-2 img{
+    width: 400px;
+}
+#section{
+    padding: 7.5rem;
+}
+#section .section2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: thin solid #ccc;
+    border-radius: 1.4rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
+
+}
+#section .section2 .flow1-item{
+    padding:  3rem 3rem 3rem 3rem;
+}
+#section .section2 .flow-2 img{
+    width: 400px;
+}
+#section3{
+    padding: 7.5rem;
+}
+#section .section3{
+    display: flex;
+    align-items: center;
+    border: thin solid #ccc;
+    border-radius: 1.4rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
+}
+#section .section3 .users1-item{
+    padding:  3rem 3rem 3rem 3rem;
+}
+#section .section3 .users-2 img{
+    width: 400px;
+}
+#community .community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    border: thin solid #ccc;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+    box-shadow: 0 3px 16px rgb(0,0,0,0.12);
+    z-index: 1;
+    
+}
+#community .community button{
+    background-color:hsl(322, 100%, 66%) ;
+    color: #fff;
+    border-radius: 25px;
+    border: thin solid gray;
+    padding: 0.5rem 3rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-family: 'open Sans' sans-serif;
+    outline: 0;
+    cursor: pointer;
+}
+#contact{
+    padding: 2rem 7.5rem;
+    background-color: hsl(192, 100%, 9%);
+}
+.footer-sec{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col1{color: white;}
+.col1 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.col2 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.col3 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.col4 img{
+    color: white;
+}
+
